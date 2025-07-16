@@ -14,9 +14,8 @@ This repository provides a ready-to-use environment for developing Frappe applic
 2. **Clone this repository into your bench folder**
 
    ```bash
-   git clone <this-repo-url> .
+   git clone https://github.com/Shinonn23/frappe-project-config.git .
    ```
-   Replace `<this-repo-url>` with the actual URL of this repository. The `.` ensures the files are placed directly in your bench folder.
 
 3. **Install Requirements**
 
