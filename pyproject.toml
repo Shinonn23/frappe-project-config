@@ -1,0 +1,23 @@
+[tool.pyright]
+# Set path for type stubs
+stubPath = "stubs"
+
+# Include directories for Pyright to check
+include = ["apps", "stubs"]
+
+# Set Python interpreter from virtual environment
+pythonPath = "~/Documents/Projects/frappe/eef-erp/env/bin/python"
+
+# Set Python version (assuming Python 3.12 from venv)
+pythonVersion = "3.12"
+
+# Other Pyright settings
+typeCheckingMode = "standard"
+reportMissingImports = true
+reportMissingTypeStubs = false
+
+# (optional) Add paths for Frappe/ERPNext so Pyright recognizes the structure
+extraPaths = [
+    "~/Documents/Projects/frappe/eef-erp/apps/frappe",
+    "~/Documents/Projects/frappe/eef-erp/apps/eef_erp",
+]

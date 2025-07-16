@@ -1,0 +1,11 @@
+.mypy_cache
+
+apps/
+sites/
+env/
+logs/
+out/
+config/
+Procfile
+
+patches.txt
