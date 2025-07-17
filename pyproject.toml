@@ -1,7 +1,4 @@
 [tool.pyright]
-# Include directories for Pyright to check
-include = ["apps"]
-
 # Set Python interpreter from virtual environment
 pythonPath = "~/Documents/Projects/frappe/eef-erp/env/bin/python"
 
