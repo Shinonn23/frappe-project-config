@@ -14,7 +14,7 @@
                 "frappe",
                 "serve",
                 "--port",
-                "8000",
+                "8001",
                 "--noreload",
                 "--nothreading"
             ],

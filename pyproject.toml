@@ -1,9 +1,6 @@
 [tool.pyright]
-# Set path for type stubs
-stubPath = "stubs"
-
 # Include directories for Pyright to check
-include = ["apps", "stubs"]
+include = ["apps"]
 
 # Set Python interpreter from virtual environment
 pythonPath = "~/Documents/Projects/frappe/eef-erp/env/bin/python"
